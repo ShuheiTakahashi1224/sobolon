@@ -1,0 +1,24 @@
+[
+  { 
+    "newsDate": "2020-2-4",
+    "newsTitle": "き業展終了！次回は2/11(火)フェスタ出店します。",
+    "newsDescription": "「き業展」2日目！大盛況に終わりました\\( ˆoˆ )/来てくださったみなさん本当にありがとうございました！やっぱり、地元多治見での出店はみ…",
+    "newsImage": "http://localhost:1234/img/news-1.png",
+    "newsAlt": "き業展"
+  },
+  {
+    "newsDate": "2020-1-20",
+    "newsTitle": "“可愛い” で 地球を守る！ 海洋マイクロプラスチックを使ったハンドメイドアクセサリー屋さん 【sobolon】",
+    "newsDescription": "こんにちは！私は、「 “可愛い” で地球を守る！」をテーマに、昨今、環境問題として話題になっている、マイクロプラスチックを使ったアクセサリー…",
+    "newsImage": "/img/news-2.png",
+    "newsAlt": "ハンドメイドアクセサリー"
+  },
+  {
+    "newsDate": "2020-11-23",
+    "newsTitle": "sobolonの矛盾",
+    "newsDescription": "こんにちは！“可愛い”で 地球を守る！マイクロプラスチックアクセサリー【 sobolon 】のリーダーひなこです！sobolonを知らない…",
+    "newsImage": "/img/news-3.png",
+    "newsAlt": "sobolonの矛盾"
+  }
+]
+  
