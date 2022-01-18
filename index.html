@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="/css/style.css">
   <!-- jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="/js/script.js"></script>
+
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
@@ -55,12 +58,14 @@
   <section class="concept_1">
     <div class="concept_1__inner common__inner">
       <h2 class="commmon_sectionTitle">Concept</h2>
-      <div class="concept_1__imageWrapper">
-        <img src="/img/concept-1.png" alt="sobolon コンセプト" class="concept_1__image">
-      </div>
-      <div class="concept_1_text">
-        <p class="cencept_1_text__main">可愛くてステキなのは当たり前。 地球にやさしくあるのも当たり前。</p>
-        <p class="cencept_1_text__sub">「sobolon」は、海洋汚染の要因であるマイクロプラスチックを回収し、それらを素材としたハンドメイドアクセサリーを製作しているブランドです。</p>
+      <div class="concept_1__content">
+        <div class="concept_1__imageWrapper">
+          <img src="/img/concept-1.png" alt="sobolon コンセプト" class="concept_1__image">
+        </div>
+        <div class="concept_1_text">
+          <p class="cencept_1_text__main">可愛くてステキなのは当たり前。<br>地球にやさしくあるのも当たり前。</p>
+          <p class="cencept_1_text__sub">「sobolon」は、海洋汚染の要因であるマイクロプラスチックを回収し、それらを素材としたハンドメイドアクセサリーを製作しているブランドです。</p>
+        </div>
       </div>
     </div>
   </section>
@@ -104,8 +109,8 @@
   <section class="concept_2">
     <div class="concept_2__inner common__inner">
       <div class="concept_2_text">
-        <p class="concept_2_text__main">消費者である私たちが、 地球環境のためにできることは何か？</p>
-        <p class="concept_2_text__sub">そんな視点からこのブランドは生まれました。 オシャレを楽しむ気持ちを大切にしながらも、 ただ可愛いだけじゃない環境にやさしいアクセサリーを選ぶ人が増えていったら… その変化は少しずつ、だけども本質的に、 この世界をHappyに変えていくのだと、私たちは考えます。</p>
+        <p class="concept_2_text__main">消費者である私たちが、<br>地球環境のためにできることは何か？</p>
+        <p class="concept_2_text__sub">そんな視点からこのブランドは生まれました。<br>オシャレを楽しむ気持ちを大切にしながらも、<br>ただ可愛いだけじゃない環境にやさしいアクセサリーを選ぶ人が増えていったら…<br>その変化は少しずつ、だけども本質的に、<br>この世界をHappyに変えていくのだと、私たちは考えます。</p>
       </div>
     </div>
   </section>
@@ -114,7 +119,7 @@
       <h2 class="commmon_sectionTitle">Products</h2>
       <ul class="products_list">
         <li class="products_list__item">
-          <a href="products_list__link">
+          <a href="" class="products_list__link">
             <div class="products_list__imageWrapper">
               <img src="/img/product-1.png" alt="sobolon products" class="products_list__image">
             </div>
@@ -125,7 +130,7 @@
           </a>
         </li>
         <li class="products_list__item">
-          <a href="products_list__link">
+          <a href="" class="products_list__link">
             <div class="products_list__imageWrapper">
               <img src="/img/product-2.png" alt="sobolon products" class="products_list__image">
             </div>
@@ -136,7 +141,7 @@
           </a>
         </li>
         <li class="products_list__item">
-          <a href="products_list__link">
+          <a href="" class="products_list__link">
             <div class="products_list__imageWrapper">
               <img src="/img/product-3.png" alt="sobolon products" class="products_list__image">
             </div>
@@ -147,24 +152,67 @@
           </a>
         </li>
       </ul>
+      <a href="" class="common__button">MORE</a>
     </div>
   </section>
   <section class="news">
     <div class="news__inner common__inner">
       <h2 class="commmon_sectionTitle">News</h2>
-      <ul class="news_list">
+      <ul class="news_list js-news_list">
       </ul>
+      <a href="" class="common__button">MORE</a>
     </div>
   </section>
   <section class="concept_3">
     <div class="concept_3__inner common__inner">
-
+      <div class="concept_3__imageWrapper">
+        <img src="/img/concept-2.png" alt="sobolon コンセプト" class="concept_3__image">
+      </div>
+      <div class="concept_3_text">
+        <p class="cencept_3_text__main">合言葉は、<br>「 “可愛い” で 地球を守る！」</p>
+        <p class="cencept_3_text__sub">深刻化している環境問題に対して、否定や制限、禁止といった強制的な方法ではなく、明るく幸せな未来を目指して、「可愛い」「楽しい」の力を信じて、愛につながる選択を世の中に増やしていきます。</p>
+      </div>
     </div>
   </section>
   <section class="contact">
     <div class="contact__inner common__inner">
       <h2 class="contact__title commmon_sectionTitle">Contact</h2>
-
+      <form action="" method="post" class="contact_form">
+        <p class="contact_form__chushaku"><span class="contact_form__chushaku--kome">＊</span>は入力必須項目です</p>
+        <div class="contact_form__item">
+          <label for="contact_form__name" class="contact_form__label">お名前<span class="contact_form__label--kome">＊</span></label>
+          <input type="text" id="contact_form__name" class="contact_form__inputText">
+        </div>
+        <div class="contact_form__item">
+          <label for="contact_form__mail" class="contact_form__label">メールアドレス<span class="contact_form__label--kome">＊</span></label>
+          <input type="text" id="contact_form__mail" class="contact_form__inputText">
+        </div>
+        <div class="contact_form__item">
+          <label for="mail" class="contact_form__label">法人/個人の選択<span class="contact_form__label--kome">＊</span></label>
+          <div class="contact_form__radioButtonFlex">
+            <div class="contact_form__radioButtonWrapper">
+              <label for="contact_form__corporation" class="contact_form__radioButtonLabel contact_form__radioButtonLabel--checked js-contact_form__radioButtonLabel js-contact_form__corporationLabel">法人</label>
+              <input type="radio" name="contact_form__radioButton" id="contact_form__corporation" class="contact_form__radioButton js-contact_form__radioButton js-contact_form__corporation" checked>
+            </div>
+            <div class="contact_form__radioButtonWrapper">
+              <label for="contact_form__individual" class="contact_form__radioButtonLabel js-contact_form__radioButtonLabel js-contact_form__individualLabel">個人</label>
+              <input type="radio" name="contact_form__radioButton" id="contact_form__individual" class="contact_form__radioButton js-contact_form__radioButton js-contact_form__individual">
+            </div>
+          </div>
+        </div>
+        <div class="contact_form__item">
+          <label for="contact_form__content" class="contact_form__label">お問い合わせ内容<span class="contact_form__label--kome">＊</span></label>
+          <textarea name="" id="contact_form__content" cols="30" rows="10" class="contact_form__textarea"></textarea>
+        </div>
+        <div class="contact_form__footer">
+          <div class="contact_form__checkboxWrapper">
+            <input type="checkbox" name="" id="contact_form__checkbox" class="contact_form__checkbox">
+            <span class="contact_form__checkboxPart"></span>
+            <label for="contact_form__checkbox" class="contact_form__checkboxLabel"><a href="" class="contact_form__link">プライバシーポリシー</a>に同意します。</label>
+          </div>
+          <input type="submit" value="送信" class="common__button"/>
+        </div>
+      </form>
     </div>
   </section>
   <footer class="footer">
